@@ -2087,6 +2087,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig \
     vendor/google/coral/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
 
+
+# Columbus
+PRODUCT_COPY_FILES += \
+    vendor/google/coral/proprietary/vendor/dsp/sdsp/columbus.napp_header:$(TARGET_COPY_OUT_VENDOR)/dsp/sdsp/columbus.napp_header \
+    vendor/google/coral/proprietary/vendor/dsp/sdsp/columbus.so:$(TARGET_COPY_OUT_VENDOR)/dsp/sdsp/columbus.so \
+    vendor/google/coral/proprietary/vendor/dsp/sdsp/columbus_lite.napp_header:$(TARGET_COPY_OUT_VENDOR)/dsp/sdsp/columbus_lite.napp_header \
+    vendor/google/coral/proprietary/vendor/dsp/sdsp/columbus_lite.so:$(TARGET_COPY_OUT_VENDOR)/dsp/sdsp/columbus_lite.so
+
 PRODUCT_PACKAGES += \
     libMpeg4SwEncoder \
     libsdsprpc \
